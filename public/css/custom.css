@@ -1,0 +1,43 @@
+a {
+    margin: 5px;
+}
+body {
+    background-color: white;
+}
+
+.bg-light {
+    background-color: #0d6aad ;
+}
+.modal-header
+{
+    display: block!important;
+    background-color: #00a7d0;
+    font-family: "Source Code Pro", "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    font-size: large;
+   color: black;
+
+}
+.modal-title
+{
+   alignment: center;
+}
+.modal-header .close
+{
+    alignment: center;
+}
+.modal-footer  .close{
+    alignment: center;
+}
+
+#ui-datepicker-div {
+    z-index: 10000 !important;
+}
+
+#ui-datepicker-div .ui-state-highlight {
+    background-color: red;
+    background-image: none;
+}
+#ui-datepicker-div .ui-state-active {
+    background-color: green;
+    background-image: none;
+}
