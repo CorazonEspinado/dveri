@@ -1,4 +1,5 @@
 @extends('layouts.template')
+@include('main.todoor');
 @section ('content')
  <script src="{{asset('js/doors.js')}}"></script>
    
@@ -23,6 +24,9 @@
             <li class="nav-item">
                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#addNewTask"
                         id="addNewTask">Добавить дверь
+                </button>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#todoor"
+                        id="senddoor">Отправить дверь
                 </button>
             </li>
 
