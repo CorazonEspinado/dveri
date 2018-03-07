@@ -10,7 +10,5 @@ class MainController extends Controller
        return view('main.main');
    }
    
-   public function GetDoors(){
-       return response;
-   }
+  
 }

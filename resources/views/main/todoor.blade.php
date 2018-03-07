@@ -16,34 +16,48 @@
 
                     <div class="col-4-md">
                         <div class="form-group">
-                            <label>
-                                1
+                            <label for="refresh_interval">
+                                Info-refresh-interval:
                             </label>
-                            <textarea class="form-control" name="1" id="1"></textarea>
+                            <input type="number" name='refresh_interval' id='refresh_interval'>
                         </div>
                     </div>
 
                     
                     <div class="col-4-md">
                         <div class="form-group">
-                            <label>
-                                2
+                            <label for='refresh_url'>
+                                Refresh URL:
                             </label>
+                            <input type="url">
                         </div>
                     </div>
-                </div>
+               
 
                 <div class="col-4-md">
-                    <div class="form-group"  id="2">
-                        <input type="text" name="3" id="3" class="form-control"/>
+                    <div class="form-group">
+                        <label for='watchdog_interval'>
+                            Watchdog Interval:
+                        </label>
+                        <input type="number" name='watchdog_interval' id='watchdog_interval'>
+                    </div>
+                </div>
+                
+                <div class="col-4-md">
+                    <div class="form-group">
+                        <label for='upload_interval'>
+                            Upload Interval:
+                        </label>
+                        <input type="number" name='upload_interval' id='upload_interval'>
 
                     </div>
                 </div>
+                
                 <div class="col-4-md">
 
                 </div>
 
-
+ </div>
                 <div class="modal-footer">
                     <input type="submit" class="btn btn-success  pull-left" value="Сохранить">
 
